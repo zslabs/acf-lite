@@ -45,7 +45,7 @@ add_filter('acf_settings', 'my_acf_settings');
 *     http://www.advancedcustomfields.com/docs/tutorials/creating-and-registering-your-own-field/
 */
 
-register_field('acf_file_path', dirname(__File__) . '/fields/file-path/file-path.php');
+register_field('my_custom_field', dirname(__File__) . '/fields/my-custom-field.php');
 
 
 
