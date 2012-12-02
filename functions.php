@@ -31,7 +31,7 @@ function my_acf_settings( $options )
     
     // set options page structure
     $options['options_page']['title'] = 'Global Options';
-    $options['options_page']['pages'] = array('Header', 'Footer')
+    $options['options_page']['pages'] = array('Header', 'Footer');
     
         
     return $options;
